@@ -1,0 +1,80 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.title {
+  color: #39cbe5;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 5px 5px #ddf9ff;
+  font-family: "Impact", sans-serif;
+}
+
+body {
+  background-color: #65bcf7;
+  background-image: url("https://images.pexels.com/photos/158829/notebook-pen-table-blank-158829.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+a {
+  color: #84d9e8;
+  font-weight: bold;
+  font-family: "Verdana";
+  font-size: 18px;
+  }
+
+
+
+p {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Verdana";
+  color: #333738;
+  }
+
+.slogan {
+  font-size: 16px;
+  text-align: center;
+  font-family: Arial;
+  color: #333738;
+  }
+
+
+.subtitle {
+  color: #39cbe5;
+  font-size: 45px;
+  font-family: "Impact", sans-serif;
+  text-align: center;
+  text-shadow: 5px 5px #ddf9ff;
+  }
+
+button {
+  border-radius: 8px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+  color: #358b9e;
+  font-family: "Verdana"
+  }
+
+button:hover {
+  	background-color: #1099b2;
+  	color: #39cbe5;
+  	box-shadow: inset 0 0 0 3px #39cbe5;
+    transform: skew(-12deg);
+  }
+
+  #bottom_cta, #bunner {
+    text-align: center;
+      }
+
+.myform {
+  width: 300px;
+  margin: 0 auto;
+  }
+
+.signbutton {
+  text-align: center;
+    }

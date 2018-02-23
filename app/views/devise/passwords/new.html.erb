@@ -1,13 +1,13 @@
-<h2>Forgot your password?</h2>
+<h2 class=subtitle>Forgot your password?</h2>
 
 <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= f.error_notification %>
 
-  <div class="form-inputs">
+  <div class="form-inputs myform">
     <%= f.input :email, required: true, autofocus: true %>
   </div>
 
-  <div class="form-actions">
+  <div class="form-actions myform">
     <%= f.button :submit, "Send me reset password instructions" %>
   </div>
 <% end %>
